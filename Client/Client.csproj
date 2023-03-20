@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="32feet.NET" Version="3.5.0" />
+    <PackageReference Include="Microsoft.Windows.WinMD" Version="1.0.210629.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DarrenLee">
+      <HintPath>..\libs\DarrenLee.dll</HintPath>
+    </Reference>
+    <Reference Include="InTheHand.Net.Personal">
+      <HintPath>..\libs\InTheHand.Net.Personal.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
