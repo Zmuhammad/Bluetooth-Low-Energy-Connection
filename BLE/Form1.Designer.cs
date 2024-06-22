@@ -50,7 +50,7 @@
             groupBox1.Controls.Add(btnStart);
             groupBox1.Controls.Add(stxtStatus);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Location = new Point(13, 13);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(655, 373);
             groupBox1.TabIndex = 0;
