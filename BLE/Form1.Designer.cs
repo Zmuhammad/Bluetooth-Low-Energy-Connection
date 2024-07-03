@@ -82,7 +82,7 @@
             sbtnSend.Name = "sbtnSend";
             sbtnSend.Size = new Size(94, 29);
             sbtnSend.TabIndex = 4;
-            sbtnSend.Text = "Send";
+            sbtnSend.Text = " Send ";
             sbtnSend.UseVisualStyleBackColor = true;
             // 
             // btnStart
